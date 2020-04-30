@@ -11,7 +11,7 @@ conta1.exibirSaldo()
 conta1.depositar(200)
 conta1.exibirSaldo()
 
-conta2 = Conta(2, 1500.50, cliente3)
+conta2 = Conta(2, 1500.50, [cliente2, cliente4])
 conta2.exibirSaldo()
 conta2.sacar(500)
 conta2.exibirSaldo()
